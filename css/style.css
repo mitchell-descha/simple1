@@ -1,0 +1,48 @@
+body, .list-group-item{
+  background-color:  #2f00ff;
+}
+
+.modal-content{
+  background-color:  #8fa3e0;
+}
+
+
+.logo{
+  height:78px;
+  width: auto;
+}
+
+.form-control::placeholder{
+text-align: center;
+}
+
+@media (min-width: 570px) {
+  .list-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 760px) {
+  .list-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 990px) {
+  .list-group {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.btn-secondary{
+  color:#070707 ;
+  width: 150px;
+  border-radius: 8px;
+  background-color: #ff8800;
+}
+
+
+h1{
+  color: rgb(255, 237, 78);
+  font-size: 18px;
+}
